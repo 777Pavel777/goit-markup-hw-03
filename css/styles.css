@@ -44,16 +44,23 @@ img {
 
 /* HEADER */
 
-.header {
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
-}
-
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   height: 100%;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .header-menu-nav {
@@ -220,7 +227,7 @@ img {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px o;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -309,6 +316,8 @@ img {
 }
 
 .portfolio-title {
+  margin-bottom: 72px;
+
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -345,9 +354,6 @@ img {
 
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0;
 }
 
