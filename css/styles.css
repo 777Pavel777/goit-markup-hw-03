@@ -190,7 +190,6 @@ img {
 }
 
 .about-title {
-  visibility: hidden;
   text-align: center;
 
   font-weight: 500;
@@ -360,6 +359,19 @@ img {
 .footer-container a {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #4d5ae5;
 }
 
 .logo-studio-footer {
