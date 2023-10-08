@@ -44,6 +44,11 @@ img {
 
 /* HEADER */
 
+.header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -51,15 +56,14 @@ img {
   height: 100%;
 }
 
-.header-container {
-  display: flex;
-}
-
 .header-menu-nav {
-  margin: 24px 0;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -78,6 +82,10 @@ img {
   gap: 40px;
 }
 
+.header-link ul {
+  padding: 24px 0;
+}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -93,12 +101,12 @@ img {
 }
 
 .header-contacts {
+  display: flex;
   font-style: normal;
 }
 
 .header-contacts-link {
   display: flex;
-  justify-content: flex-end;
   gap: 40px;
   margin: 24px 0 24px 332px;
 }
@@ -122,11 +130,12 @@ img {
 .title {
   background-color: #2e2f42;
   text-align: center;
+  padding: 188px 0;
 }
 
 .title-text {
-  padding-top: 188px;
-  padding-bottom: 48px;
+  max-width: 496px;
+
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -135,9 +144,12 @@ img {
 }
 
 .title-btn {
+  display: block;
+  min-width: 169px;
+
   padding: 16px 32px;
   margin-bottom: 188px;
-  border-radius: 5px;
+  border-radius: 4px;
   border: none;
 
   font-family: 'Roboto', sans-serif;
@@ -157,6 +169,15 @@ img {
 
 /* SECTOIN_2 */
 
+.about {
+  padding: 120px 0;
+}
+
+.about ul {
+  display: flex;
+  gap: 24px;
+}
+
 .about-container {
   width: 1128px;
   display: flex;
@@ -164,9 +185,8 @@ img {
 }
 
 .about-title {
-  display: none;
+  visibility: hidden;
   text-align: center;
-  padding: 72px 0;
 
   font-weight: 500;
   font-size: 20px;
@@ -176,13 +196,13 @@ img {
 }
 
 .about-item {
-  margin: 0 24px 120px 0;
+  width: calc((100% - 72px) / 4);
 }
 
 .about-subtitle {
   display: flex;
   align-items: center;
-  margin: 120px 0 8px 0;
+  margin-bottom: 8px;
 
   font-weight: 500;
   font-size: 20px;
@@ -202,12 +222,11 @@ img {
 
 .team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px o;
 }
 
 .team-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   text-align: center;
 
   font-size: 36px;
@@ -222,23 +241,26 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 1170px;
+  gap: 24px;
 }
 
 .team-card {
+  width: calc((100% - 72px) / 4);
+
   background-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 0px 0px 4px 4px;
   overflow: hidden;
   box-shadow: 0 2px 4px -2px #333;
 
-  padding-bottom: 32px;
-  margin: 0 24px 20px 0;
   text-align: center;
 }
 
 .team-card img {
   display: block;
-  margin-bottom: 32px;
+}
+
+.team-container-name {
+  padding: 32px 0;
 }
 
 .team-card-name {
@@ -256,6 +278,8 @@ img {
 }
 
 .team-card-subtitle {
+  margin-bottom: 8px;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -265,26 +289,28 @@ img {
 
 /* SECTOIN_4 */
 
+.portfolio {
+  padding: 120px 0 120px 0;
+}
+
 .portfolio-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   flex-wrap: wrap;
-  width: 1170px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
-.portfolio-container li {
-  width: 33%;
-}
-
-.portfolio-container img {
-  margin-bottom: 32px;
+.portfolio-list {
+  width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
-
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -324,10 +350,11 @@ img {
 }
 
 .footer-container {
-  padding: 100px 156px 100px 0;
+  padding: 100px 0;
 }
 
-.footer-container li {
+.footer-container a {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
