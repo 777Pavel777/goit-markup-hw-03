@@ -48,7 +48,6 @@ img {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  height: 100%;
 }
 
 .header {
@@ -63,7 +62,7 @@ img {
   margin: 0 auto;
 }
 
-.header-menu-nav {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -84,14 +83,16 @@ img {
   color: #2e2f42;
 }
 
-.header-link {
+.header-menu {
   display: flex;
   gap: 40px;
 }
 
-.nav-link {
+.header-link {
   padding: 24px 0;
+}
 
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -133,8 +134,8 @@ img {
 /* SECTOIN_1 */
 
 .title {
+  display: flex;
   background-color: #2e2f42;
-  text-align: center;
   padding: 188px 0;
 }
 
@@ -250,6 +251,7 @@ img {
 
 .team-card {
   width: calc((100% - 72px) / 4);
+  padding: 32px 0;
 
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
@@ -261,10 +263,6 @@ img {
 
 .team-card img {
   display: block;
-}
-
-.team-container-name {
-  padding: 32px 0;
 }
 
 .team-card-name {
