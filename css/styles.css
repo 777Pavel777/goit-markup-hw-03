@@ -44,7 +44,8 @@ img {
 
 /* HEADER */
 
-.container-all {
+.container {
+  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -53,13 +54,6 @@ img {
 .header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-}
-
-.container {
-  display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header-nav {
