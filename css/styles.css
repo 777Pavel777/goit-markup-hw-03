@@ -44,7 +44,7 @@ img {
 
 /* HEADER */
 
-.container-a {
+.container-all {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -55,7 +55,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
+.container {
   display: flex;
   width: 1158px;
   padding: 0 15px;
