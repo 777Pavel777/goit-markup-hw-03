@@ -42,7 +42,7 @@ img {
   max-width: 100%;
 }
 
-/* HEADER */
+/* ================== HEADER ================== */
 
 .container {
   width: 1158px;
@@ -52,9 +52,6 @@ img {
 
 header > .container {
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
 }
 
 .header {
@@ -127,19 +124,21 @@ header > .container {
   color: #404bbf;
 }
 
-/* SECTOIN_1 */
+/* ================== SECTION_1 ================== */
 
 .title {
   background-color: #2e2f42;
+  text-align: center;
   padding: 188px 0;
 }
 
 .title-text {
   max-width: 496px;
+  margin: inherit;
+  padding-bottom: 48px;
 
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -149,7 +148,7 @@ header > .container {
   min-width: 169px;
 
   padding: 16px 32px;
-  margin-bottom: 188px;
+  margin: inherit;
   border-radius: 4px;
   border: none;
 
@@ -168,7 +167,7 @@ header > .container {
   background-color: #404bbf;
 }
 
-/* SECTOIN_2 */
+/* ================== SECTION_2 ================== */
 
 .about {
   padding: 120px 0;
@@ -222,7 +221,7 @@ header > .container {
   color: #434455;
 }
 
-/* SECTOIN_3 */
+/* ================== SECTION_3 ================== */
 
 .team {
   background-color: #f4f4fd;
@@ -291,7 +290,7 @@ header > .container {
   color: #434455;
 }
 
-/* SECTOIN_4 */
+/* ================== SECTION_4 ================== */
 
 .portfolio {
   padding: 120px 0 120px 0;
@@ -351,7 +350,7 @@ header > .container {
   color: #434455;
 }
 
-/* FOOTER */
+/* ================== FOOTER ================== */
 
 .footer {
   background-color: #2e2f42;
