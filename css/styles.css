@@ -73,6 +73,7 @@ header > .container {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .logo-studio {
@@ -102,12 +103,13 @@ header > .container {
 .header-contacts {
   display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-contacts-link {
   display: flex;
   gap: 40px;
-  margin: 24px 0 24px 332px;
+  padding: 24px 0;
 }
 
 .contacts-team {
@@ -135,7 +137,8 @@ header > .container {
 .title-text {
   max-width: 496px;
   margin: inherit;
-  padding-bottom: 48px;
+
+  margin-bottom: 48px;
 
   font-size: 56px;
   line-height: 1.07;
@@ -203,7 +206,6 @@ header > .container {
 }
 
 .about-subtitle {
-  display: flex;
   align-items: center;
   margin-bottom: 8px;
 
@@ -281,8 +283,6 @@ header > .container {
 }
 
 .team-card-subtitle {
-  margin-bottom: 8px;
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -312,7 +312,6 @@ header > .container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-title {
@@ -342,8 +341,6 @@ header > .container {
 }
 
 .portfolio-text {
-  margin-bottom: 32px;
-
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -368,6 +365,7 @@ header > .container {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .logo-studio-footer {
